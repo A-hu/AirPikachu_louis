@@ -8,6 +8,7 @@ end
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.2'
+gem 'toastr-rails', '~> 1.0'
 
 gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
