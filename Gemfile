@@ -7,7 +7,7 @@ end
 
 gem 'jquery-rails'
 gem 'bootstrap-sass'
-gem 'devise', '~> 4.2'
+gem 'devise'
 gem 'toastr-rails', '~> 1.0'
 
 gem 'rails', '~> 5.1.4'
@@ -25,6 +25,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'mailcatcher'
 end
 
 group :development do
@@ -35,3 +36,5 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+ruby '2.4.2'
